@@ -1,0 +1,27 @@
+# İSTİ YEMƏKLƏR
+# Hər sətir bir məhsuldur. Format:  şəkil-adı | Məhsulun adı | Qiymət | Çəki və ya porsiya | Qısa təsvir
+# Şəkil adını uzantısız yaz (məsələn ciyelekli-napaleon). Sayt .jpg, .jpeg, .png, .webp uzantılarının hamısını özü yoxlayır.
+# Şəkillər images/isti yemekler/ qovluğunda olmalıdır və adı kiçik hərflə, bu sütundakı kimi yazılmalıdır.
+# Şəkli hələ olmayan məhsulun yerində boş çərçivə görünür, səhifə pozulmur.
+# Başında # olan sətirlər nəzərə alınmır. Sətrin əvvəlinə * qoysan, məhsul ana səhifədə (video yoxdursa) seçilmiş kimi görünür.
+qovluq: isti yemekler
+
+kelem-dolmasi | Kələm dolması | 28 | 1 kq
+yarpaq-dolmasi | Yarpaq dolması | 28 | 1 kq
+3-baci-dolmasi | 3 bacı dolması | 35 | 1 kq
+as-qara | Aş qara | 45 | 1 kq
+sebzi | Səbzi plov | 40 | 1 kq
+heyvali-et | Heyvalı ət qovurması | 40 | 1 kq
+zogalli-et | Zoğallı aş | 40 | 1 kq
+blincik-et | Blinçik (ət) | 1.8 | 1 ədəd
+# blincik-tvaroq | Blinçik (tvaroq) | 1.4 | 1 ədəd
+# gobelekli-qelyanalti | Göbələkli qəlyanaltı | 2.5 | 1 ədəd
+# duyu | Düyü | 3 | 1 porsiya
+toyuq-levengi | Toyuq ləvəngi | 18 | 1 ədəd
+baliq-levengi | Balıq ləvəngi | 40 | 1 ədəd
+sah-plov | Şah plov | 60 | 6-7 nəfərlik
+# dosemeli-plov-toyuq | Döşəməli plov (toyuq) | 45 | 5 nəfərlik
+fisincan-plov | Fisincan plov | 45 | 5 nəfərlik
+gurze | Gürzə | 30 | 1 kq
+# dusbere | Düşbərə | 28 | 1 kq
+# siqara-boreyi | Siqara börəyi | 28 | 1 kq

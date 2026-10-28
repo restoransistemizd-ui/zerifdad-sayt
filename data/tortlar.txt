@@ -1,0 +1,17 @@
+# TORTLAR
+# Hər sətir bir məhsuldur. Format:  şəkil-adı | Məhsulun adı | Qiymət | Çəki və ya porsiya | Qısa təsvir
+# Şəkil adını uzantısız yaz (məsələn ciyelekli-napaleon). Sayt .jpg, .jpeg, .png, .webp uzantılarının hamısını özü yoxlayır.
+# Şəkillər images/tortlar/ qovluğunda olmalıdır və adı kiçik hərflə, bu sütundakı kimi yazılmalıdır.
+# Şəkli hələ olmayan məhsulun yerində boş çərçivə görünür, səhifə pozulmur.
+# Başında # olan sətirlər nəzərə alınmır. Sətrin əvvəlinə * qoysan, məhsul ana səhifədə (video yoxdursa) seçilmiş kimi görünür.
+qovluq: tortlar
+
+ciyelekli-napaleon | Çiyələkli napaleon | 23 | 1 kq
+qrilyajli-napaleon | Qrilyajlı napaleon | 23 | 1 kq
+qozlu-napaleon | Qozlu napaleon | 23 | 1 kq
+malinali-napaleon | Malinalı napaleon | 23 | 1 kq
+blincik-tortu | Blinçik | 20 | 1 kq
+qozlu-mini | Qozlu mini napaleon | 7 | 1 ədəd
+malinali-mini | Malinalı mini napaleon | 7 | 1 ədəd
+ciyelekli-mini | Çiyələkli mini napaleon | 7 | 1 ədəd
+# krep-tortu | Krep tortu | 20 | 1 kq

@@ -1,0 +1,22 @@
+# SALATLAR
+# Hər sətir bir məhsuldur. Format:  şəkil-adı | Məhsulun adı | Qiymət | Çəki və ya porsiya | Qısa təsvir
+# Şəkil adını uzantısız yaz (məsələn ciyelekli-napaleon). Sayt .jpg, .jpeg, .png, .webp uzantılarının hamısını özü yoxlayır.
+# Şəkillər images/salatlar/ qovluğunda olmalıdır və adı kiçik hərflə, bu sütundakı kimi yazılmalıdır.
+# Şəkli hələ olmayan məhsulun yerində boş çərçivə görünür, səhifə pozulmur.
+# Başında # olan sətirlər nəzərə alınmır. Sətrin əvvəlinə * qoysan, məhsul ana səhifədə (video yoxdursa) seçilmiş kimi görünür.
+qovluq: salatlar
+
+napaleon-salati | Napaleon salatı | 23 | 1 kq
+krep-salati | Krep salatı | 23 | 1 kq
+alma-salati | Alma salatı | 22 | 1 kq
+qizardilmis-yuxa-salati | Qızardılmış yuxa salatı | 22 | 1 kq
+nar-salati | Nar salatı | 22 | 1 kq
+mimoza-salati | Mimoza salatı | 22 | 1 kq
+paytaxt-salati | Paytaxt salatı | 22 | 1 kq
+rafaello-salati | Rafaello salatı | 26 | 1 kq
+gavali-salati | Gavalı salatı | 22 | 1 kq
+cugundur-salati | Çuğundur salatı | 22 | 1 kq
+biber-salati | Bibər salatı | 22 | 1 kq
+veneqred-salati | Veneqred salatı | 22 | 1 kq
+# suba-salati-baliq | Şuba salatı (balıq) | 24 | 1 kq
+# suba-salati-toyuq | Şuba salatı (toyuq) | 22 | 1 kq

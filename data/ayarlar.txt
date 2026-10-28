@@ -1,0 +1,22 @@
+# Saytın ümumi məlumatları. Format:  açar: dəyər
+# Başında # olan sətirlər nəzərə alınmır. Yazmaq istədiyin sətrin əvvəlindəki # işarəsini sil.
+
+ad: Zərif Dad
+slogan: Ləziz təamlar hər zaman süfrənizdə olsun.
+
+# Brend rəngi (loqonun qırmızısına uyğun kodu bura yaz)
+reng: #e30613
+
+# Loqo faylı images qovluğu
+logo: logo.jpeg
+
+telefon: 051 702 66 66
+whatsapp: 051 702 66 66
+instagram: zerifdad_baku
+video: reklam.mp4
+
+# Aşağıdakıları lazım olsa doldur, sətrin əvvəlindəki # işarəsini sil:
+# is-saatlari: Hər gün 09:00 - 21:00
+# unvan: Bakı
+# catdirilma: Bakı daxili çatdırılma. Qiymət ünvandan asılıdır.
+# sifaris-qeydi: Tortlar üçün ən azı 2 gün əvvəl sifariş verin.

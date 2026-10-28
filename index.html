@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#d4202c">
+<title>Zərif Dad</title>
+<link rel="icon" href="images/logo.png">
+<link rel="apple-touch-icon" href="images/logo.png">
+<script>try{var t=localStorage.getItem("zd_tema_v1");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="kodlar/style.css">
+</head>
+<body>
+
+<div class="app" id="app">
+  <div class="top" id="top">
+    <header class="appbar">
+      <a class="brand" href="#ana" aria-label="Ana səhifə">
+        <span class="logo" id="logo"></span>
+        <span class="bname" id="bname"></span>
+      </a>
+      <div class="tools">
+        <button class="ib" id="btnSearch" type="button" aria-label="Axtar" data-act="search"></button>
+        <a class="ib" id="btnCart" href="#sebet" aria-label="Səbət"><span class="badge" id="badgeTop" hidden>0</span></a>
+      </div>
+    </header>
+    <div class="searchbar" id="searchbar" hidden>
+      <input id="q" type="search" placeholder="Axtar: tort, plov, salat..." autocomplete="off" enterkeyhint="search">
+    </div>
+  </div>
+  <main id="view"><div class="loading">Yüklənir...</div></main>
+</div>
+
+<a class="minicart" id="minicart" href="#sebet" hidden></a>
+
+<nav class="tabbar" id="tabbar" aria-label="Əsas menyu">
+  <a href="#ana" data-tab="ana"><i data-ic="home"></i><span>Ana səhifə</span></a>
+  <a href="#menyu" data-tab="menyu"><i data-ic="menu"></i><span>Menyu</span></a>
+  <a href="#sebet" data-tab="sebet"><i data-ic="cart"></i><span>Səbət</span><b class="badge" id="badgeTab" hidden>0</b></a>
+  <a href="#elaqe" data-tab="elaqe"><i data-ic="phone"></i><span>Əlaqə</span></a>
+</nav>
+
+<div class="sheet" id="sheet" hidden>
+  <div class="sbg" data-act="sheet-close"></div>
+  <div class="pn" id="sheetPn"></div>
+</div>
+
+<div class="zoom" id="zoom" hidden data-act="zoom-close">
+  <div class="zbox" id="zoomBox"></div>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<noscript><p style="padding:20px">Saytın işləməsi üçün JavaScript açıq olmalıdır.</p></noscript>
+<script src="kodlar/app.js"></script>
+</body>
+</html>
